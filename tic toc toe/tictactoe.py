@@ -15,7 +15,7 @@ def playerName(turn):
     
 def restart():
     temp2 = input("restart? Y/N ")
-    if temp2 == "Y":
+    if temp2.capitalize().rstrip() == "Y":
         global status
         status = "123456789"
         global i
